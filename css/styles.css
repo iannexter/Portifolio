@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --main-color: #00eeff;
+    --text-color: #ffffff;
+    --bg-color-01: #1f242d;
+    --bg-color-02: #323946;
+    --color-01: #999999;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: var(--bg-color-01);
+    color: var(--text-color);
+}
+
+span{
+
+    color: #00eeff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.1rem;
+    background-color: var(--bg-color-01);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    z-index: 100;
+    border: none;
+}
+
+header a {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+header a:last-child {
+    margin-right: 0; 
+}
+
+
+.sobremim {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 2rem;
+}
+
+.sobremim-texto {
+    max-width: 60%;
+}
+
+.sobremim-texto h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.sobremim-texto p {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.sobremim .imagem-perfil img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--main-color);
+}
+
+.midiassociais {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.midiassociais a {
+    margin: 0 20px; 
+    color: var(--text-color); 
+    font-size: 3.5rem; 
+}
+
+.midiassociais a:hover {
+    color: var(--main-color); 
+}
+
+
+.projetos iframe {
+    display: block;
+    margin: 20px auto; 
+    width: 80%; 
+    height: 450px; 
+    border-radius: 10px; 
+    max-width: 1000px; 
+}
+
+
+.project {
+    text-align: center; 
+    margin: 40px 0; 
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.projetos h2 {
+    text-align: center;  
+    font-size: 3rem;  
+    margin-bottom: 20px;  
+}
+
+.projetos h2 span {
+    color: var(--main-color);  
+}
+
+
+footer {
+    background-color: #232323; 
+    color: var(--text-color); 
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+footer a {
+    color: var(--main-color); 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+
+.sobremim-texto p {
+    text-align: justify; 
+    line-height: 1.6;
+}
+
+.link-clicavel {
+    color: var(--main-color); /* Cor personalizada para o link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.link-clicavel:visited {
+    color: var(--main-color); /* Mantém a cor do link após ser clicado */
+}
+
+.link-clicavel:hover {
+    text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse */
+}
+
+
+.amarelo {
+    color: rgb(157, 157, 38);
+}
+
+.verde{
+
+    color: #0a9824;
+}
+
+.vermelho-claro{
+
+    color: #b93434;
+}
