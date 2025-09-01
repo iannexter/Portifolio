@@ -192,3 +192,93 @@ footer a:hover {
 
     color: #b93434;
 }
+
+
+/* Aqui é a parte do responsivo */
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+
+    .sobremim-texto {
+        max-width: 100%;
+    }
+
+    .sobremim .imagem-perfil img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .projetos iframe {
+        width: 95%;
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .sobremim {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobremim-texto {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sobremim .imagem-perfil img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .midiassociais {
+        flex-wrap: wrap;
+    }
+
+    .midiassociais a {
+        margin: 10px;
+        font-size: 2.5rem;
+    }
+
+    .projetos iframe {
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 0.5rem;
+    }
+
+    .sobremim .imagem-perfil img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .projetos h2 {
+        font-size: 2rem;
+    }
+
+    .project h3 {
+        font-size: 1.4rem;
+    }
+
+    .projetos iframe {
+        height: 200px;
+    }
+}
