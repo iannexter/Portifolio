@@ -1,1 +1,1 @@
-Portifolio: html css
+Portifolio: html, css e JavaScript 
